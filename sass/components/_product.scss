@@ -1,0 +1,45 @@
+#product {
+  padding: 128px 0;
+  background-color: #F4F6FC;
+}
+
+.product_head h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+  text-transform: capitalize;
+}
+
+.product_head h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+}
+
+.product_inner {
+  padding: 56px 32px 38px 48px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.product_inner i {
+  font-size: 30px;
+  color: #2405F2;
+}
+
+.product_inner h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282938;
+  padding-top: 15px;
+}
+.product_inner p {
+  font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #282938;
+opacity: 0.7;
+padding-top: 12px;
+}

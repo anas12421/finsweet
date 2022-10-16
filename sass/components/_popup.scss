@@ -1,0 +1,131 @@
+.popup{
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+  z-index: 99999;
+  display: none;
+  backdrop-filter: blur(7px);
+}
+
+// .popup::after{
+//   position: absolute;
+//   content: '';
+//   height: 100%;
+//   width: 100%;
+//   top: 0;
+//   left: 0;
+//   background-color: rgba(255, 255, 255, 0.163);
+//   z-index: -1;
+//   filter: blur(50px) ;
+//   -webkit-filter: blur(50px) ;
+// }
+
+.popup_item{
+  background-color: whitesmoke;
+  width: 750px;
+  padding: 50px 90px 50px 0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
+  -moz-transform: translate(-50% , -50%);
+  -ms-transform: translate(-50% , -50%);
+  -o-transform: translate(-50% , -50%);
+  border: 1px solid #FCD980;
+}
+
+.popup_item .close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.popup_item .close i{
+  height: 40px;
+  width: 40px;
+  background-color: #1C1E53;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+.popup_inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p_inner_right{
+  text-align: center;
+
+}
+.p_inner_right h2{
+  font-size: 45px;
+  text-transform: capitalize;
+  font-weight: 300;
+  animation: deal 1.5s linear infinite;
+  -webkit-animation: deal 1.5s linear infinite;
+}
+
+
+@keyframes deal {
+  0%{
+    letter-spacing: 3px;
+    color: red;
+  }
+  50%{
+    letter-spacing: 0;
+    color: black;
+  }
+  100%{
+    letter-spacing: 3px;
+    color: red;
+  }
+  
+}
+
+.p_inner_right h3{
+  color: #1C1E53;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.p_inner_right p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.p_inner_right a{
+  padding: 15px 40px;
+  background-color: #FCD980;
+  color: black;
+  margin-top: 25px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.p_inner_right a:hover{
+  background-color: #1C1E53;
+  color: white;
+}

@@ -1,0 +1,79 @@
+#question {
+  padding: 128px 0;
+  // background-color: purple;
+}
+
+.ques_head {
+  position: sticky;
+  top: 80px;
+}
+
+.ques_head h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+  padding-top: 20px;
+}
+
+.ques_head a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #2405F2;
+  opacity: 0.8;
+}
+
+.ques_list button span {
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+  padding: 12px 0;
+}
+
+.ques_list button .counter {
+  color: #2405F2;
+  margin-right: 55px;
+}
+
+
+.accordion-item {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-bottom: 2px solid #ECECF1;
+}
+
+.accordion-button::after {
+  background-image: url(../images/plus.png);
+  background-size: 16px 16px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/close.png);
+  // transform: rotate(-180deg);
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 0px 100px 45px 105px;
+}
+
+
+.accordion-body p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #282938;
+  opacity: 0.87
+}

@@ -1,0 +1,112 @@
+.in_left {
+  background: url(../images/inquiry.png);
+  background-position: center;
+  background-size: cover;
+  padding: 81px 95px 260px 93px;
+  background-position: center;
+}
+
+.in_bg {
+  background-color: #1C1E53;
+}
+
+.in_left h2 {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: #FFFFFF;
+}
+
+.in_left p {
+  padding-top: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.in_right {
+  padding: 90px 95px 0 84px;
+}
+
+.in_right h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.in_right p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #F4F6FC;
+  padding-top: 23px;
+}
+
+.inr_form {
+  margin-top: 45px;
+}
+
+.form_dd input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding-left: 32px;
+  color: white;
+}
+
+.form_dd input:focus {
+  outline: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding-left: 32px;
+  color: white;
+  border-color: white;
+}
+
+.form_dd label {
+  font-size: 16px;
+  color: #F4F6FC;
+  opacity: 0.5;
+  text-transform: capitalize;
+  padding-left: 32px;
+}
+
+
+.in_right button {
+  width: 100%;
+  background: #FCD980;
+  border-radius: 41px;
+  padding: 16px 0;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1B1C2B;
+  border: 1px solid #FCD980;
+  transition: all 0.3s ease ;
+  -webkit-transition: all 0.3s ease ;
+  -moz-transition: all 0.3s ease ;
+  -ms-transition: all 0.3s ease ;
+  -o-transition: all 0.3s ease ;
+}
+
+.in_right button:hover{
+  color: white;
+  background-color: transparent;
+}
+
+.inr_link{
+  margin-top: 28px;
+}
+
+.inr_link a{
+  font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.inr_link a:hover{
+  color: #FCD980;
+}

@@ -1,0 +1,29 @@
+#copyright {
+  padding: 26px 0;
+}
+
+.copyright_text p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+}
+
+.copyright_text a {
+  color: #282938;
+}
+
+.copyright_menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright_menu ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+  text-transform: capitalize;
+}
+.copyright_menu ul li a:hover {
+  color: #2405F2;
+}

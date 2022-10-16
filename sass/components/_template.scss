@@ -1,0 +1,126 @@
+#template {
+  padding-top: 96px;
+}
+
+.template_btn ul {
+  display: flex;
+  justify-content: center;
+}
+
+.template_btn ul li button {
+  color: #333828;
+  opacity: 0.7;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 0 16px;
+}
+
+.template_btn ul li button:hover {
+  color: #2405F2 !important;
+}
+
+.template_btn ul li button.active {
+  background-color: transparent !important;
+  color: #2405F2 !important;
+}
+
+.template_inner {
+  margin-top: 50px;
+  // background-color: coral;
+  overflow: hidden;
+}
+
+.template_img {
+  overflow: hidden;
+}
+
+.template_img img {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.template_inner:hover .template_img img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.template_inner h2 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+}
+
+.template_inner p {
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #282938;
+  opacity: 0.7;
+}
+
+.template_inner a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #282938;
+  padding-top: 15px;
+  text-transform: capitalize;
+}
+
+.template_inner a i {
+  margin-left: 10px;
+}
+
+.template_inner a:hover {
+  color: #2405F2;
+}
+
+
+.port_contact {
+  padding: 128px 0;
+}
+
+.port_contact h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+}
+
+.port_contact p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-top: 15px;
+}
+
+.port_contact a {
+  margin-top: 35px;
+  padding: 16px 66px;
+  background: #FCD980;
+  border-radius: 41px;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #1B1C2B;
+  border: 1px solid #FCD980;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.port_contact a:hover{
+  color: #FCD980;
+  background-color: transparent;
+}

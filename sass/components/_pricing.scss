@@ -1,0 +1,214 @@
+#price {
+  padding-top: 128px;
+}
+
+.price_head h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+}
+
+.price_head p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-top: 10px;
+}
+
+.price_item {
+  margin-top: 65px;
+  background: #F4F6FC;
+  //background-color: teal;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.price_item:hover {
+  background-color: #1C1E53;
+}
+
+
+.price_inner {
+  position: relative;
+  padding-top: 51px;
+  z-index: 1;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  overflow: hidden;
+}
+
+.price_inner::after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.06);
+  //background-color: red;
+  bottom: 60px;
+  left: 0;
+  z-index: -1;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  clip-path: circle(50% at 50% 50%);
+  transition: all 0.3s ease ;
+  -webkit-transition: all 0.3s ease ;
+  -moz-transition: all 0.3s ease ;
+  -ms-transition: all 0.3s ease ;
+  -o-transition: all 0.3s ease ;
+}
+
+.price_item:hover .price_inner::after{
+  height: 120%;
+}
+
+.price_counter {
+  display: flex;
+  align-items: center;
+  padding-left: 48px;
+}
+
+.price_counter span {
+  font-weight: 600;
+  font-size: 38px;
+  color: #282938;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.price_item:hover .price_counter span {
+  color: white;
+}
+
+
+.price_counter a {
+  font-size: 16px;
+  line-height: 28px;
+  color: #2405F2;
+  padding-left: 15px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.price_item:hover .price_counter a {
+  color: #FCD980;
+}
+
+.price_title {
+  margin-top: 15px;
+  padding-left: 48px;
+}
+
+
+.price_title h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #282938;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.price_title p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-top: 8px;
+  padding-right: 77px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.price_item:hover .price_title h2,
+.price_item:hover .price_title p {
+  color: white;
+}
+
+.price_list {
+  padding-top: 63px;
+  padding-left: 48px;
+}
+
+.price_list ul li {
+  margin-bottom: 5px;
+}
+
+.price_list ul li a {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.price_item:hover .price_list ul li a {
+  color: white;
+}
+
+.price_list ul li a i {
+  color: #97DAAD;
+  border-radius: 3px;
+  margin-right: 7px;
+}
+
+.price_list ul li a .for_color {
+  filter: grayscale(1.2);
+  -webkit-filter: grayscale(1.2);
+}
+
+.price_btn {
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 59px;
+  // background-color: red;
+}
+
+.price_btn a {
+  padding: 16px 78px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: #F4F6FC;
+  background: #282938;
+  border-radius: 41px;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.price_item:hover .price_btn a {
+  background-color: #FCD980;
+  color: #282938;
+}

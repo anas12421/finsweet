@@ -1,0 +1,48 @@
+#follow {
+  padding: 128px 0;
+}
+
+.follow_head h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+}
+
+.follow_inner {
+  margin-top: 48px;
+  // background-color: crimson;
+}
+
+.fi_title {
+  display: flex;
+  align-items: center;
+}
+
+.fi_title p {
+  height: 24px;
+  width: 24px;
+  background-color: #2405F2;
+  display: inline-block;
+  margin-right: 23px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.follow_inner h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #282938;
+  padding-top: 28px;
+  text-transform: capitalize;
+}
+
+.follow_inner p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-top: 10px;
+}

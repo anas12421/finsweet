@@ -1,0 +1,53 @@
+#banner {
+  background-color: #1C1E53;
+  padding: 126px 0;
+}
+
+.banner_text h1 {
+  font-size: 54px;
+  color: white;
+  font-weight: 600;
+}
+
+.banner_text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  opacity: 0.7;
+  padding-top: 13px;
+}
+
+.banner_btn {
+  margin-top: 34px;
+}
+
+.banner_btn a {
+  padding: 16px 54px;
+  border-radius: 41px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  text-transform: capitalize;
+  color: white;
+  margin-right: 34px;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.banner_btn a:hover{
+  background: #FCD980;
+  border-color: #FCD980;
+  color: #1B1C2B;
+  
+}
+
+.banner_btn .bvp{
+  padding-left: 0;
+}
+.banner_btn .bvp:hover{
+  padding-left: 54px;
+}

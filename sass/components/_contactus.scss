@@ -1,0 +1,106 @@
+#contact {
+  padding: 128px 0;
+}
+
+.form_head h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #282938;
+  text-transform: capitalize;
+}
+
+.form_head p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+  padding-top: 16px;
+}
+
+.main_form {
+  margin-top: 60px;
+  background: #F4F6FC;
+  border-radius: 12px;
+  padding: 55px 0 60px 0;
+}
+
+.form_details label {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-bottom: 2px;
+}
+
+.form_details input {
+  width: 100%;
+  padding: 18px 0 18px 32px;
+  font-size: 16px;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.form_details input::placeholder,
+.form_details textarea::placeholder{
+  text-transform: capitalize;
+  color: black;
+}
+
+.form_details.for_margin {
+  margin-top: 22px;
+}
+
+.form_details select {
+  width: 100%;
+  padding: 18px 0 18px 32px;
+
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  appearance: none;
+  font-size: 16px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.form_details optgroup{
+  text-transform: capitalize;
+
+}
+
+.form_details textarea {
+  width: 100%;
+  padding: 18px 0 18px 32px;
+  font-size: 16px;
+  color: #000000;
+  // text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  height: 138px;
+}
+
+.form_btn {
+  margin-top: 32px;
+}
+
+.form_btn input {
+  padding: 16px 64px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #F4F6FC;
+  background: #282938;
+  border-radius: 41px;
+  text-transform: capitalize;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.form_btn input:hover{
+  color: #282938;
+  background-color: #F4F6FC;
+}
